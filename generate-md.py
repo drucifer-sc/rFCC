@@ -8,5 +8,5 @@ def generate_minor_bands(major_band):
         
         print(f"- `{major_band:2}.{minor:<2} : {minor_start:<5} - {minor_end:<5}`")
 
-for major_band in range(1, 16): 
+for major_band in range(1, 17): 
     generate_minor_bands(major_band)
